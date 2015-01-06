@@ -95,6 +95,15 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="abN-GI-e9z"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTV-hy-95h">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="139" width="211" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -103,6 +112,7 @@
                                 <exclude reference="ea8-iu-FcY"/>
                                 <exclude reference="ygX-Z0-NCg"/>
                                 <exclude reference="Thh-4x-HAT"/>
+                                <exclude reference="MTV-hy-95h"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -111,6 +121,7 @@
                                 <include reference="ea8-iu-FcY"/>
                                 <include reference="ygX-Z0-NCg"/>
                                 <include reference="Thh-4x-HAT"/>
+                                <include reference="MTV-hy-95h"/>
                             </mask>
                         </variation>
                     </view>
@@ -119,6 +130,7 @@
                         <outlet property="enterNameTextField" destination="kq2-L1-5ZY" id="fgr-zF-kEl"/>
                         <outlet property="mailButton" destination="Thh-4x-HAT" id="aMU-2o-xMP"/>
                         <outlet property="messageLabel" destination="ygX-Z0-NCg" id="16T-4m-EI9"/>
+                        <outlet property="nameLabel" destination="MTV-hy-95h" id="G1g-ft-qNV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
